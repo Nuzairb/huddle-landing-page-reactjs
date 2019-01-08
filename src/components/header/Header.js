@@ -17,7 +17,7 @@ export default class Header extends Component {
             padding: '10px 0px'
           }}
         >
-          Header
+          Header build with reactjs
         </AppBar>
       </div>
     )
