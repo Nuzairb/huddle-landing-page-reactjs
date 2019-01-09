@@ -22,6 +22,15 @@ export default class Header extends Component {
               <div className="font_righteous header_logo_venue">The Venue</div>
               <div className="header_logo_title">Musical Event</div>
             </div>
+            <IconButton>
+              <MenuIcon
+                aria-label="Menu"
+                color="inherit"
+                onClick={()=> console.log('open')}
+              >
+
+              </MenuIcon>
+            </IconButton>
           </Toolbar>
         </AppBar>
       </div>
