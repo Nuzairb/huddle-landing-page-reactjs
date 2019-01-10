@@ -14,21 +14,21 @@ class Header extends Component {
         headerShow: false
     }
 
-    componentDidMount(){
-        window.addEventListener('scroll',this.handleScroll);
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
     }
 
 
     handleScroll = () => {
-       if(window.scrollY > 0){
+        if (window.scrollY > 0) {
             this.setState({
                 headerShow: true
             })
-       } else {
+        } else {
             this.setState({
                 headerShow: false
             })
-       }
+        }
     }
 
 
@@ -58,14 +58,14 @@ class Header extends Component {
                     <IconButton
                         aria-label="Menu"
                         color="inherit"
-                        onClick={()=> this.toggleDrawer(true)}
+                        onClick={() => this.toggleDrawer(true)}
                     >
-                        <MenuIcon/>
-                    </IconButton> 
+                        <MenuIcon />
+                    </IconButton>
 
                     <SideDrawer
                         open={this.state.drawerOpen}
-                        onClose={(value)=> this.toggleDrawer(value)}
+                        onClose={(value) => this.toggleDrawer(value)}
                     />
 
 
