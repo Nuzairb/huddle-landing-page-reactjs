@@ -7,10 +7,10 @@ import Featured from './components/featured';
 class App extends Component {
 	render() {
 		return (
-		<div className="App" style={{ height:"1500px",background:'cornflowerblue'}}>
-			<Header/>
-			<Featured/>
-		</div>
+			<div className="App" style={{ height:"1500px",background:'cornflowerblue'}}>
+				<Header/>
+				<Featured/>
+			</div>
 		);
 	}
 }
