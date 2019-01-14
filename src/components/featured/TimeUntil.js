@@ -9,7 +9,6 @@ class TimeUntil extends Component {
         minutes: '0',
         seconds: '0'
     }
-
     getTimeUntil(deadline){
         const time = Date.parse(deadline) - Date.parse(new Date());
         if (time < 0) {
