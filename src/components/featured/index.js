@@ -5,9 +5,7 @@ import TimeUntil from './TimeUntil';
 const Featured = () => {
     return (
         <div style={{position:'relative'}}>
-
             <Carrousel/>
-
             <div className="artist_name">
                 <div className="wrapper">
                     Ariana Grande
